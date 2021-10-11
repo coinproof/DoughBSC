@@ -2,11 +2,8 @@
   <div class="header">
     <div class="p-2 flex-grow-1 bd-highlight">
       <button class="btn btn-sm connect">
-        <a href="https://www.doughpad.com/" style="text-decoration: none; color: rgb(20, 11, 11);">DOUGHPAD</a>
+        <a href="https://www.doughpad.com/" style="text-decoration: none; color: rgb(20, 11, 11);">Doughpad</a>
       </button>
-      <p *ngIf="userAccountAddress" class="text-break text-wrap">
-        {{ userAccountAddress }}
-      </p>
     </div>
     <div [@openClose]="isHamburguer ? 'open' : 'closed'" class="popup">
       <div class="row">
@@ -507,25 +504,25 @@
         <label for="roundedOne"></label>
       </div><span class="roadmap-milestones">Audit</span>
       <div class="roundedOne">
-        <input type="checkbox" value="None" id="roundedOne" name="check" />
+        <input type="checkbox" value="None" id="roundedOne" name="check" checked/>
         <label for="roundedOne"></label>
       </div><span class="roadmap-milestones">Whitepaper</span>
+      <div class="roundedOne">
+        <input type="checkbox" value="None" id="roundedOne" name="check" checked/>
+        <label for="roundedOne"></label>
+      </div><span class="roadmap-milestones">Listing on CoinGecko</span>
+      <div class="roundedOne">
+        <input type="checkbox" value="None" id="roundedOne" name="check" checked/>
+        <label for="roundedOne"></label>
+      </div><span class="roadmap-milestones">Listing on CoinMarketCap</span>
+      <div class="roundedOne">
+        <input type="checkbox" value="None" id="roundedOne" name="check" checked/>
+        <label for="roundedOne"></label>
+      </div><span class="roadmap-milestones">Community Contests & Promotions</span>
       <div class="roundedOne">
         <input type="checkbox" value="None" id="roundedOne" name="check" />
         <label for="roundedOne"></label>
       </div><span class="roadmap-milestones">Billboard Tour Around the World</span>
-      <div class="roundedOne">
-        <input type="checkbox" value="None" id="roundedOne" name="check" />
-        <label for="roundedOne"></label>
-      </div><span class="roadmap-milestones">Listing on CoinGecko</span>
-      <div class="roundedOne">
-        <input type="checkbox" value="None" id="roundedOne" name="check" />
-        <label for="roundedOne"></label>
-      </div><span class="roadmap-milestones">Listing on CoinMarketCap</span>
-      <div class="roundedOne">
-        <input type="checkbox" value="None" id="roundedOne" name="check" />
-        <label for="roundedOne"></label>
-      </div><span class="roadmap-milestones">Community Contests & Promotions</span>
       <div class="roundedOne">
         <input type="checkbox" value="None" id="roundedOne" name="check" />
         <label for="roundedOne"></label>
@@ -673,10 +670,10 @@
       <div class="flex-child">
         <div class="head">
           <img src="../../assets/images/CEO.png" style='width: 200px; height: 200px;' alt="CEO">
-        </div>
+        </div><br>
         <div class="ceo">
-          <h6 style="font-size: 19px; color: rgb(255, 255, 255);background-color: none;">CEO Mick Hofmans
-            LinkedIn</h6>
+          <h2 style="font-size: 19px; color: rgb(255, 255, 255);background-color: none;">CEO Mick Hofmans</h2>
+          <h6 ><a href="ttps://www.linkedin.com/in/mick-hofmans/" target="_blank" style="color:#fff;">LinkedIn</a></h6>
         </div>
       </div>
       
